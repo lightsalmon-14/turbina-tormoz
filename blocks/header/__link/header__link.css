@@ -1,0 +1,16 @@
+.header__link {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  width: fit-content;
+  color: white;
+}
+
+.header__link:last-child {
+  margin-bottom: 0;
+}
