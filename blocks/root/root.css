@@ -6,4 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  background-image: url(../../images/bottom-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }

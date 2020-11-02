@@ -10,7 +10,7 @@
 <body class="root">
     <header class="header">
         <div class="header__menu">
-            <img src="./images/logo.svg" alt="Логотип" class="header__logo" />
+            <a class="header__logo" href="#"><img src="./images/logo.svg" alt="Логотип" /></a>
             <nav class="header__links">
                 <a class="header__link" target="_blank" href="#">Яндекс.Музыка ↗</a>
                 <a class="header__link" target="_blank" href="#">Spotify ↗</a>
@@ -18,7 +18,61 @@
                 <a class="header__link" target="_blank" href="#">VK Music ↗</a>
             </nav>
         </div>
-        <img src="./images/title.svg" alt="Турбина" class="header__image" />
+        <h1 class="header__title">
+            <img src="./images/title.svg" alt="Турбина" />
+        </h1>
     </header>
+    <main class="content">
+        <div class="description">
+            <h2 class="description__title">О проекте</h2>
+            <p class="description__paragraph">Мы знаем, что наши дети постоянно существуют в режиме непрекращающегося творческого процесса. Мы видим это, когда ребёнок что-то напевает, когда он бесконечно рисует, когда придумывает истории, когда разговаривает с едой и игрушками — дети постоянно включены и что-то изобретают. Родители часто недооценивают это спонтанное творчество ребёнка. Это не плохо, просто мы привыкаем к этому. Давайте попробуем внимательнее присмотреться к нашим детям.
+            </p>
+            <p class="description__paragraph">Мы запускаем проект «ТУРБИНА», который открывает работу настоящего музыкального лейбла на базе «Маршака». В рамках «ТУРБИНЫ» лучшие современные инди-музыканты пишут свои песни на стихи, написанные детьми. Здесь важно — мы не заставляем наших детей садиться и писать поэзию, мы говорим о том, что родителям стоит быть более внимательными и чуткими к своим детям. Именно так мы сможем получить тексты, которые перестанут быть детскими, не будут осмыслены как взрослые — поэзия, которая сокращает дистанцию между взрослостью и детством, где спонтанное детское творчество и бессознательное, замеченное родителем, становится общественным культурным достоянием.
+            </p>
+            <h2 class="description__title">Как это работает</h2>
+            <p class="description__paragraph">Вы можете прислать нам тексты, родившиеся у ваших детей, которые вы записали и считаете, что это сильное высказывание. Мы собираем пул таких текстов и передаём их музыкантам. Артисты создают музыку на эти стихи. Мы продюсируем выпуск трека, возможно съёмки клипа и так далее. Мы всегда указываем автора стихотворений внутри релиза: Хадн Дадн feat. Варя Карпова и Федя Быстров — Контур.
+            </p>
+            <h2 class="description__title">Тезисы</h2>
+            <p class="description__paragraph">— Дети никогда не прекращают творить и круто стараться быть на них похожими в этом
+            </p>
+            <p class="description__paragraph">— Детское бессознательное помогает родителям понять, что происходит внутри семьи
+            </p>
+            <p class="description__paragraph">— Не существует детской и взрослой поэзии. Существует мысль и чувство, зафиксированное в ней
+            </p>
+            <p class="description__paragraph">— Дети получают невероятное удовольствие и мотивацию от того, что их творчество востребовано сверстниками и взрослыми
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="form__title">Форма</h3>
+            <form class="form__fields" name="sent" class="" action="#" method="POST">
+                <label class="form__field">
+                    <input type="text" id="name-input" class="form__input" name="name" placeholder="Имя и фамилия автора" required>
+                    <span id="name-input-error" class="form__item-error"></span>
+                </label>
+                <label class="form__field">
+                    <input type="email" id="email-input" class="form__input" name="email" placeholder="Почта" required>
+                    <span id="email-input-error" class="form__item-error"></span>
+                </label>
+                <label class="form__field">
+                    <input type="tel" id="phone-input" class="form__input" name="phone" pattern="" placeholder="Телефон" required>
+                    <span id="phone-input-error" class="form__item-error"></span>
+                </label>
+                <label class="form__field">
+                    <textarea id="text-input" class="form__input form__input_textarea" name="text" placeholder="Стихи" required></textarea>
+                    <span id="text-input-error" class="form__item-error"></span>
+                </label>
+                <label class="form__field">
+                    <input type="radio" id="radio-input" class="form__input form__input_radio" name="agreement">
+                    <span id="radio-input-error" class="form__item-error"></span>
+                    <span class="form__radio-text">Согласен с <span class="form__radio-accent">офертой</span></span>
+                </label>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__copyright">Copyright</div>
+        <div class="footer__copyright">Copyright</div>
+    </footer>
 </body>
 </html>
