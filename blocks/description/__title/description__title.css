@@ -1,0 +1,10 @@
+.description__title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 60px 0 44px;
+}
+
+.description__title:first-child {
+  margin-top: 0;
+}

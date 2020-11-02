@@ -1,0 +1,6 @@
+.content {
+  background-color: white;
+  margin: 0 10px 0;
+  border-radius: 10px;
+  transform: translate(0px, -10px);
+}

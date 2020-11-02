@@ -1,0 +1,11 @@
+.form__field {
+  display: flex;
+  margin-bottom: 16px;
+}
+.form__field:nth-child(4){
+  margin-bottom: 35px;
+}
+.form__field:nth-child(5){
+  align-items: center;
+  margin-bottom: 0;
+}
