@@ -3,3 +3,9 @@
   flex-direction: column;
   max-width: 600px;
 }
+
+@media screen and (max-width: 830px) {
+  .form__fields {
+    max-width: 100%;
+  }
+}

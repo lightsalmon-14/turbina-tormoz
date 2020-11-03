@@ -10,7 +10,7 @@
 <body class="root">
     <header class="header">
         <div class="header__menu">
-            <a class="header__logo" href="#"><img src="./images/logo.svg" alt="Логотип" /></a>
+            <a class="header__web" href="#"><img class="header__logo" src="./images/logo.svg" alt="Логотип" /></a>
             <nav class="header__links">
                 <a class="header__link" target="_blank" href="#">Яндекс.Музыка ↗</a>
                 <a class="header__link" target="_blank" href="#">Spotify ↗</a>
@@ -19,7 +19,7 @@
             </nav>
         </div>
         <h1 class="header__title">
-            <img src="./images/turbina.svg" alt="Турбина" />
+            <img class="header__image"src="./images/turbina.svg" alt="Турбина" />
         </h1>
     </header>
     <main class="content">
@@ -54,11 +54,11 @@
             <form class="form__fields" name="sent" class="" action="#" method="POST" novalidate>
                 <label class="form__field">
                     <input type="text" id="name-input" class="form__input form__input_error" name="name" placeholder="Имя и фамилия автора" minlength="3" maxlength="50" required>
-                    <span id="name-input-error" class="form__item-error">Please enter a URL.</span>
+                    <span id="name-input-error" class="form__item-error">Заполняя эту форму, вы становитесь частью проекта.</span>
                 </label>
                 <label class="form__field">
                     <input type="email" id="email-input" class="form__input form__input_error" name="email" placeholder="Почта" required>
-                    <span id="email-input-error" class="form__item-error">Я бабуленьку родную, очень крепко поцелую, ведь бабуленька моя очень-очень добрая</span>
+                    <span id="email-input-error" class="form__item-error">Please enter URL.</span>
                 </label>
                 <label class="form__field">
                     <input type="tel" id="phone-input" class="form__input" name="phone" pattern="" placeholder="Телефон" required>
@@ -74,7 +74,7 @@
                     <span class="form__radio-text">Согласен с <span class="form__radio-accent">офертой</span></span>
                 </label>
                 <button type="submit" class="form__button">Отправить форму</button>
-                <span class="form__item-error"></span>
+                <span class="form__button-error">Упс, что-то пошло не так и форма не отправилась, попробуйте ещё раз!</span>
             </form>
         </section>
     </main>
