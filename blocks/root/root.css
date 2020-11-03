@@ -6,8 +6,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* background-image: url(../../images/bottom-background.jpg);
+  background-image: url(../../images/top_background.jpg);
   background-repeat: no-repeat;
-  background-position: bottom center; */
-  background-color: grey;
+  background-attachment: fixed;
+  /* background-size: contain; */
+  background-position: top center;
+  /* background-color: gray; */
 }

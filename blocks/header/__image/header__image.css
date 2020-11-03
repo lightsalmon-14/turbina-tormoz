@@ -1,0 +1,26 @@
+@media screen and (max-width: 1190px) {
+  .header__image {
+    width: 600px;
+    height: 186px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .header__image {
+    width: 620px;
+    height: 192px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .header__image {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__image {
+    width: 270px;
+    height: 82px;
+  }
+}

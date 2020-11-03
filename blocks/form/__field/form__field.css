@@ -9,3 +9,9 @@
   align-items: center;
   margin: 40px 0 40px;
 }
+
+@media screen and (max-width: 475px) {
+  .form__field {
+    margin-bottom: 6px;
+  }
+}
