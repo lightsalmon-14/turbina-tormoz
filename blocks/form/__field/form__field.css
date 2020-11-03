@@ -1,11 +1,11 @@
 .form__field {
-  display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
-.form__field:nth-child(4){
-  margin-bottom: 35px;
-}
-.form__field:nth-child(5){
-  align-items: center;
+.form__field:nth-child(4) {
   margin-bottom: 0;
+}
+.form__field:nth-child(5) {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 40px;
 }

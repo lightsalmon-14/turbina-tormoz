@@ -7,10 +7,9 @@
 
 .header {
   height: 100vh;
-  background-image: url(../../images/top-background.jpg);
+  /* background-image: url(../../images/top-background.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: top left;
+  background-position: top left; */
   display: flex;
   flex-direction: column;
 }
