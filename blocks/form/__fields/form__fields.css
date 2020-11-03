@@ -1,5 +1,5 @@
 .form__fields {
   display: flex;
   flex-direction: column;
-  max-width: 597px;
+  max-width: 600px;
 }

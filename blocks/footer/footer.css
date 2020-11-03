@@ -1,7 +1,8 @@
 @import url(./__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin: 25px 35px 43px;
+  margin: 10px 15px 20px;
 }
