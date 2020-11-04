@@ -1,5 +1,4 @@
 .header__link {
-  font-size: 16px;
   line-height: 1.2;
   margin-bottom: 8px;
   border-style: solid;
@@ -9,6 +8,7 @@
   text-decoration: none;
   width: fit-content;
   color: white;
+  border: 2px solid white;
 }
 
 .header__link:last-child {
@@ -17,14 +17,12 @@
 
 @media screen and (max-width: 1190px) {
   .header__link {
-    font-size: 15px;
     padding: 6px 16px 6px;
   }
 }
 
 @media screen and (max-width: 475px) {
 .header__link {
-    font-size: 12px;
     line-height: 1.25;
     padding: 5px 14px 5px;
   }

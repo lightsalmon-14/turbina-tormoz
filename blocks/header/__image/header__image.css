@@ -1,7 +1,12 @@
-@media screen and (max-width: 1190px) {
+.header__image {
+  /* max-width: 720px;
+  max-height: 226px; */
+}
+
+/* @media screen and (max-width: 1190px) {
   .header__image {
-    width: 600px;
-    height: 186px;
+    min-width: 600px;
+    min-height: 186px;
   }
 }
 
@@ -10,17 +15,4 @@
     width: 620px;
     height: 192px;
   }
-}
-
-@media screen and (max-width: 635px) {
-  .header__image {
-    width: 450px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .header__image {
-    width: 270px;
-    height: 82px;
-  }
-}
+} */
