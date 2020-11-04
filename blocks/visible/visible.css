@@ -1,0 +1,7 @@
+.visible {
+  opacity: 1;
+  display: block;
+  transition: all 0.66s;
+  max-height: 100px;
+  padding: 20px 0 0px 60px;
+}

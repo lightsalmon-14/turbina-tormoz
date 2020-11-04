@@ -1,0 +1,6 @@
+.visible-btn {
+  opacity: 1;
+  display: block;
+  transition: all 0.66s;
+  max-height: auto;
+}
