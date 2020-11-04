@@ -11,6 +11,11 @@
   border: 2px solid white;
 }
 
+.header__link:after {
+  content:'\2197\00FE0E';
+  position: absolute;
+}
+
 .header__link:last-child {
   margin-bottom: 0;
 }
