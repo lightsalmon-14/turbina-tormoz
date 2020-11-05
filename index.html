@@ -26,14 +26,14 @@
 			<img class="header__image" src="./images/turbina_logo.svg" alt="Турбина" />
 		</h1>
 		<div class="player">
-			<div class="player__control"></div>
+			<!-- <div class="player__control"></div> -->
 			<div class="song current">
 				<div class="song__progress"></div>
 				<div class="song__title ">Контур — Хадн Дадн feat. Варя Карпова и Федя Быстров</div>
 				<div class="song__time">0:24</div>
 			</div>
 			<div class="song__text">текст песни</div>
-			<div class="toggle-btn"></div>
+			<!-- <div class="toggle-btn"></div> -->
 		</div>
 		<div class="playlist">
 			<div class="song">№6 Поезия — Мукулатура feat. Саша Петров</div>
@@ -90,7 +90,7 @@
 		<section class="form">
 			<h3 class="form__title">форма</h3>
 			<p class="form__paragraph">Заполняя эту форму, вы становитесь частью проекта.</p>
-			<form class="form__fields" name="sent" class="" action="#" method="POST" novalidate>
+			<form class="form__fields" name="sent" action="#" method="POST" novalidate>
 				<label class="form__field">
 					<input type="text" id="name-input" class="form__input form__input_error" name="name"
 						placeholder="Имя и фамилия автора" minlength="3" maxlength="50" required>
@@ -127,83 +127,7 @@
 		<p class="footer__copyright">Сделано студентами <a class="footer__link" target="_blank"
 				href="https://praktikum.yandex.ru">Яндекс.Практикум</a></p>
 	</footer>
-	<script type="text/javascript" src="./scripts/script.js"></script>
-=======
-    <header class="header">
-        <div class="header__menu">
-            <a class="header__web" href="https://marshakbooks.ru"><img class="header__logo" src="./images/logo.svg" alt="Логотип" /></a>
-            <nav class="header__links">
-                <button class="header__button">Стриминги</button>
-                <a class="header__link" target="_blank" href="#">Яндекс.Музыка</a>
-                <a class="header__link" target="_blank" href="#">Spotify</a>
-                <a class="header__link" target="_blank" href="#">Apple Music</a>
-                <a class="header__link" target="_blank" href="#">VK Music</a>
-            </nav>
-        </div>
-        <h1 class="header__title">
-            <img class="header__image" src="./images/turbina.svg" alt="Турбина" />
-        </h1>
-    </header>
-    <main class="content">
-        <section class="description">
-            <h2 class="description__title">о проекте</h2>
-            <p class="description__paragraph">Мы знаем, что наши дети постоянно существуют в режиме непрекращающегося творческого процесса. Мы видим это, когда ребёнок что-то напевает, когда он бесконечно рисует, когда придумывает истории, когда разговаривает с едой и игрушками — дети постоянно включены и что-то изобретают. Родители часто недооценивают это спонтанное творчество ребёнка. Это не плохо, просто мы привыкаем к этому. Давайте попробуем внимательнее присмотреться к нашим детям.
-            </p>
-            <p class="description__paragraph">Мы запускаем проект «ТУРБИНА», который открывает работу настоящего музыкального лейбла на базе «Маршака». В рамках «ТУРБИНЫ» лучшие современные инди-музыканты пишут свои песни на стихи, написанные детьми. Здесь важно — мы не заставляем наших детей садиться и писать поэзию, мы говорим о том, что родителям стоит быть более внимательными и чуткими к своим детям. Именно так мы сможем получить тексты, которые перестанут быть детскими, не будут осмыслены как взрослые — поэзия, которая сокращает дистанцию между взрослостью и детством, где спонтанное детское творчество и бессознательное, замеченное родителем, становится общественным культурным достоянием.
-            </p>
-            <h2 class="description__title">как это работает?</h2>
-            <p class="description__paragraph">Вы можете прислать нам тексты, родившиеся у ваших детей, которые вы записали и считаете, что это сильное высказывание. Мы собираем пул таких текстов и передаём их музыкантам. Артисты создают музыку на эти стихи. Мы продюсируем выпуск трека, возможно съёмки клипа и так далее. Мы всегда указываем автора стихотворений внутри релиза: Хадн Дадн feat. Варя Карпова и Федя Быстров — Контур.
-            </p>
-            <h2 class="description__title">тезисы</h2>
-            <ul class="description__list">
-                <li class="description__item">
-                    <p class="description__paragraph">&bull; Дети никогда не прекращают творить и круто стараться быть на них похожими в этом.</p>
-                </li>
-                <li class="description__item">
-                    <p class="description__paragraph">&bull; Детское бессознательное помогает родителям понять, что происходит внутри семьи.</p>
-                </li>
-                <li class="description__item">
-                    <p class="description__paragraph">&bull; Не существует детской и взрослой поэзии. Существует мысль и чувство, зафиксированное в ней.</p>
-                </li>
-                <li class="description__item">
-                    <p class="description__paragraph">&bull; Дети получают невероятное удовольствие и мотивацию от того, что их творчество востребовано сверстниками и взрослыми.</p>
-                </li>
-            </ul>
-        </section>
-        <section class="form">
-            <h3 class="form__title">форма</h3>
-            <p class="form__paragraph">Заполняя эту форму, вы становитесь частью проекта.</p>
-            <form class="form__fields" name="sent" class="" action="#" method="POST" novalidate>
-                <label class="form__field">
-                    <input type="text" id="name-input" class="form__input form__input_error" name="name" placeholder="Имя и фамилия автора" minlength="3" maxlength="50" required>
-                    <span id="name-input-error" class="form__item-error">Заполняя эту форму, вы становитесь частью проекта.</span>
-                </label>
-                <label class="form__field">
-                    <input type="email" id="email-input" class="form__input form__input_error" name="email" placeholder="Почта" required>
-                    <span id="email-input-error" class="form__item-error">Please enter URL.</span>
-                </label>
-                <label class="form__field">
-                    <input type="tel" id="phone-input" class="form__input" name="phone" pattern="" placeholder="Телефон" required>
-                    <span id="phone-input-error" class="form__item-error"></span>
-                </label>
-                <label class="form__field">
-                    <input type="text" id="text-input" class="form__input" name="text" placeholder="Стихи" minlength="10" maxlength="500" required>
-                    <span id="text-input-error" class="form__item-error"></span>
-                </label>
-                <label class="form__field">
-                    <input type="radio" id="radio-input" class="form__input form__input_radio" name="agreement" required>
-                    <span id="radio-input-error" class="form__item-error"></span>
-                    <span class="form__radio-text">Согласен с <span class="form__radio-accent">офертой</span></span>
-                </label>
-                <button type="submit" class="form__button">Отправить форму</button>
-                <span class="form__button-error">Упс, что-то пошло не так и форма не отправилась, попробуйте ещё раз!</span>
-            </form>
-        </section>
-    </main>
-    <footer class="footer">
-        <p class="footer__copyright">&copy; Маршак, 2020.</p>
-        <p class="footer__copyright">Сделано студентами <a class="footer__link" target="_blank" href="https://praktikum.yandex.ru">Яндекс.Практикум</a></p>
-    </footer>
+<script src="./scripts/script.js"></script>
 </body>
 
 </html>
