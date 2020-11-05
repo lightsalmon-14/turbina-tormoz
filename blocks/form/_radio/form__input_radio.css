@@ -8,6 +8,7 @@
   border: 2px solid #000000;
   border-radius: 50%;
   outline: none;
+  cursor: pointer;
 }
 
 .form__input_radio:checked {
