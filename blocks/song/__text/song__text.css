@@ -8,7 +8,7 @@
   color: white;
   flex-shrink: 0;
   opacity: 0;
+	display: none;
   transition: opacity 0.66s;
-	width: 0;
   visibility: collapse;
 }

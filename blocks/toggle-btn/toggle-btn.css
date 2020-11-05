@@ -4,10 +4,9 @@
   cursor: pointer;
   height: auto;
   transition: all 0.33s;
-	padding: 0 0px 0 0px;
 	flex-shrink: 0;
 }
 
 .toggle-btn:hover {
-  transform: scale(1.15);
+	transform: scale(1.15) translate(5%, 5%);
 }
