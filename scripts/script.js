@@ -10,6 +10,7 @@ const headerStreaming = document.querySelector('.header__links');
 const toggleInfo = () => {
   playerList.classList.toggle('visible');
   playerToggleButton.classList.toggle('button__close');
+  playerToggleButton.classList.toggle('button__toggle');
   songTextButton.classList.toggle('visible-btn');
 }
 

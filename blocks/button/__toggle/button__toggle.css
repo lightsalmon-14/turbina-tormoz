@@ -1,16 +1,5 @@
 .button__toggle {
   background: url('../../../images/open.svg') no-repeat 0 9px;
   width: 26px;
-  height: auto;
-  transition: all 0.33s;
 	flex-shrink: 0;
-}
-
-<<<<<<< HEAD:blocks/button/__toggle/button__toggle.css
-.button__toggle:hover {
-  transform: scale(1.15);
-=======
-.toggle-btn:hover {
-	transform: scale(1.15) translate(5%, 5%);
->>>>>>> develop:blocks/toggle-btn/toggle-btn.css
 }

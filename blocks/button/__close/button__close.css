@@ -1,10 +1,10 @@
 .button__close {
   background: url('../../../images/close_filled.svg') no-repeat 0 9px;
-  transition: all 0.66s;
-  transform: rotate(180deg);
+	width: 27px;
+	transition: all 0.66s;
+  transform: rotate(90deg);
 }
 
 .button__close:hover {
   background: url('../../../images/close_filled.svg') no-repeat 0 9px;
-  transition: all 0.66s;
 }
