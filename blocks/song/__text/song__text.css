@@ -1,0 +1,15 @@
+.song__text {
+  font-size: 18px;
+  line-height: 1.2;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px 10px;
+  margin: 0 10px 0 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.66s;
+  display: none;
+}

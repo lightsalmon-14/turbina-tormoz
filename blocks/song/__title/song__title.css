@@ -1,0 +1,8 @@
+.song__title {
+  overflow: hidden;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 0 10px 0 0;
+	flex-wrap: wrap;
+  text-overflow: ellipsis;
+}
