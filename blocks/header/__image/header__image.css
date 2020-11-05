@@ -1,6 +1,7 @@
 .header__image {
-  max-width: 56%;
+  width: 56%;
 }
+
 /*
 @media screen and (max-width: 1190px) {
   .header__image {
@@ -13,7 +14,3 @@
     width: 300px;
   }
 }
-=======
-  width: 100%;
-}
-
