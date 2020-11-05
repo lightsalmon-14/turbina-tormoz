@@ -7,12 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background-image: url(../../images/top_background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom center;
+  background: url(../../images/top_background.jpg) no-repeat fixed center;
 	background-size: cover;
-  background-color: black;
 }
 
 @media screen and (max-width: 1190px) {
