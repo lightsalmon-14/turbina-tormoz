@@ -13,6 +13,5 @@
 	max-height: 780px;
 	display: flex;
 	background: url(../../images/top_background.jpg) top center fixed;
-	/* background-size: contain; */
 	flex-direction: column;
 }
