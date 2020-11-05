@@ -3,7 +3,6 @@
 .player {
   margin-top: auto;
   height: auto;
-  box-sizing: border-box;
   padding: 20px 20px 10px 20px;
   display: flex;
 }
