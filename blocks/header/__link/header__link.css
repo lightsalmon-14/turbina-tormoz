@@ -36,5 +36,6 @@
 .header__link {
     line-height: 1.25;
     padding: 5px 14px 5px;
+    margin-bottom: 6px;
   }
 }

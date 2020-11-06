@@ -8,7 +8,8 @@
 @import url(../blocks/current/current.css);
 @import url(../blocks/playlist/playlist.css);
 @import url(../blocks/visible/visible.css);
-@import url(../blocks/visible-btn/visible-btn.css);
+@import url(../blocks/button/__visible/button__visible.css);
+@import url(../blocks/hover/hover.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/form/form.css);

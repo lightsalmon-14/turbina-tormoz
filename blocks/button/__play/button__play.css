@@ -4,7 +4,8 @@
   padding: 0 20px;
   height: auto;
   transition: all 0.33s;
-	flex-shrink: 0;
+  flex-shrink: 0;
+  border: none;
 }
 
 .button__play:hover {

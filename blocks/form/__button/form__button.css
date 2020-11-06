@@ -8,6 +8,10 @@
   background-color: transparent;
 }
 
+.form__button:hover {
+	transform: none;
+}
+
 .form__button-error {
   color: red;
   text-align: center;

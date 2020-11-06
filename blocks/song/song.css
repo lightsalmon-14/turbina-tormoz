@@ -1,16 +1,33 @@
 @import url(./__progress/song__progress.css);
 @import url(./__time/song__time.css);
 @import url(./__title/song__title.css);
+@import url(./__subtitle/song__subtitle.css);
 
 .song {
   width: 100%;
   color: white;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
   height: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 10px 0 0;
+  margin-bottom: 16px;
 	overflow: hidden;
   white-space: nowrap;
   overflow: ellipsis;
+}
+
+@media screen and (max-width: 1190px) {
+  .song {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .song {
+    font-size: 14px;
+    line-height: 1.36;
+  }
 }
