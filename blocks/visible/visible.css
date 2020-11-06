@@ -5,3 +5,9 @@
   max-height: 130px;
   padding: 10px 0 0px 60px;
 }
+
+@media screen and (max-width: 475px) {
+	.visible {
+		padding: 10px 40px 0 50px;
+		text-overflow: ellipsis;
+}

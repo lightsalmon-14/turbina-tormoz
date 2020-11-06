@@ -25,12 +25,5 @@
 @media screen and (max-width: 475px) {
 	.song__title {
 		font-size: 14px;
-    line-height: 1.36;
 	}
-}
-
-@keyframes song {
-  100% {
-    transform: translateX(-100%);
-  }
 }

@@ -10,6 +10,12 @@
   scroll-behavior: smooth;
 }
 
+/* @media screen and (max-width: 475px) {
+	.playlist {
+		margin-bottom: 0px;
+	}
+} */
+
 .playlist::-webkit-scrollbar-button {
   background-repeat: no-repeat;
   width:5px;

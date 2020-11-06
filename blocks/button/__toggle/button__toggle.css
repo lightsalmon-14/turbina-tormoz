@@ -1,7 +1,11 @@
 .button__toggle {
   background: url('../../../images/open.svg') no-repeat 0 9px;
-  width: 26px;
+  width: 27px;
   flex-shrink: 0;
+	height: 40px;
   border: none;
 	transform: all 0.33s;
+	top: 20px;
+	right: 10px;
+	position: absolute;
 }
