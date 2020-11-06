@@ -20,5 +20,7 @@
 @media screen and (max-width: 475px) {
   .root {
     font-size: 12px;
+		background-position: top center;
+		background-size: contain;
   }
 }
