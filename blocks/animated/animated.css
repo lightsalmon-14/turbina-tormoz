@@ -1,0 +1,13 @@
+@media screen and (max-width: 475px) {
+	.animated {
+		animation: song 4s ease-in-out infinite alternate;
+		transform: translateX(40%);
+		overflow: visible;
+	}
+}
+
+@keyframes song {
+  100% {
+    transform: translateX(-100%);
+  }
+}

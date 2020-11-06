@@ -24,9 +24,6 @@
 
 @media screen and (max-width: 475px) {
 	.song__title {
-		animation: song 4s ease-in-out infinite alternate;
-		transform: translateX(40%);
-		overflow: visible;
 		font-size: 14px;
     line-height: 1.36;
 	}
