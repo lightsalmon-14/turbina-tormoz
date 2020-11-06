@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 475px) {
 	.button__text {
-		width: calc(100% - 45px);
+		width: calc(100% - 30px);
 		margin: 5px auto;
 	}
 }
