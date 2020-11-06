@@ -11,3 +11,7 @@
   width: fit-content;
   padding: 6px 18px 6px;
 }
+
+.button__text:hover {
+	font-style: italic;
+}

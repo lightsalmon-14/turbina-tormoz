@@ -3,4 +3,5 @@
   width: 26px;
   flex-shrink: 0;
   border: none;
+	transform: all 0.33s;
 }

@@ -6,9 +6,7 @@
 .song {
   width: 100%;
   color: white;
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 400;
+	margin-right: 20px;
   height: 32px;
   display: flex;
   justify-content: space-between;
@@ -17,17 +15,4 @@
 	overflow: hidden;
   white-space: nowrap;
   overflow: ellipsis;
-}
-
-@media screen and (max-width: 1190px) {
-  .song {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .song {
-    font-size: 14px;
-    line-height: 1.36;
-  }
 }

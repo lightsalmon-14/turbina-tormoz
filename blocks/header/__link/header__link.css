@@ -13,23 +13,18 @@
 }
 
 .header__link:hover {
-	transform: scale(1.05);
-	background: rgba(255,255,255,0.1)
+	background: rgba(255,255,255,0.1);
+	font-style: italic;
 }
 
 .header__link:after {
   content:'\2197\00FE0E';
+	font-style: normal;
 	padding-left: 10px;
 }
 
 .header__link:last-child {
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 1190px) {
-  .header__link {
-    padding: 6px 16px 6px;
-  }
 }
 
 @media screen and (max-width: 475px) {

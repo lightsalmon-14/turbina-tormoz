@@ -3,5 +3,37 @@
 	overflow: hidden;
   padding: 0 10px 0 0;
   text-overflow: ellipsis;
-	/* font-weight: bold; */
+	color: #fff;
+	font-size: 20px;
+  line-height: 2;
+  font-weight: 400;
+	width: 100%;
+	display: flex;
+}
+
+.song__title:hover {
+	font-style: italic;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+  .song__title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+	.song__title {
+		animation: song 4s ease-in-out infinite alternate;
+		transform: translateX(40%);
+		overflow: visible;
+		font-size: 14px;
+    line-height: 1.36;
+	}
+}
+
+@keyframes song {
+  100% {
+    transform: translateX(-100%);
+  }
 }

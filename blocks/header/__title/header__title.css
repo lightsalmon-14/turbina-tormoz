@@ -7,30 +7,3 @@
   transform: translate(-50%, -50%);
   margin: 0;
 }
-
-@media screen and (max-width: 1190px) {
-  .header__title {
-    width: 600px;
-    height: 186px;
-  }
-}
-
-@media screen and (max-width: 975px) {
-  .header__title {
-    width: 620px;
-    height: 192px;
-  }
-}
-
-@media screen and (max-width: 635px) {
-  .header__title {
-    width: 470px;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .header__title {
-    width: 270px;
-    height: 82px;
-  }
-}
