@@ -1,5 +1,6 @@
 .button__toggle {
   background: url('../../../images/open.svg') no-repeat 0 9px;
   width: 26px;
-	flex-shrink: 0;
+  flex-shrink: 0;
+  border: none;
 }

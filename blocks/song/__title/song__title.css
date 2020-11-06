@@ -3,5 +3,5 @@
 	overflow: hidden;
   padding: 0 10px 0 0;
   text-overflow: ellipsis;
-	font-weight: bold;
+	/* font-weight: bold; */
 }

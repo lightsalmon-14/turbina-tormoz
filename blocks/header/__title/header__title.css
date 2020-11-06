@@ -4,10 +4,11 @@
 	top: 50%;
 	left: 50%;
 	position: absolute;
-	transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
-/* @media screen and (max-width: 1190px) {
+@media screen and (max-width: 1190px) {
   .header__title {
     width: 600px;
     height: 186px;
@@ -25,11 +26,11 @@
   .header__title {
     width: 470px;
   }
-} */
+}
 
-/* @media screen and (max-width: 475px) {
+@media screen and (max-width: 475px) {
   .header__title {
     width: 270px;
     height: 82px;
   }
-} */
+}

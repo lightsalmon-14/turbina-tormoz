@@ -1,15 +1,13 @@
 .button__text {
-  font-size: 18px;
   line-height: 1.2;
   border-radius: 30px;
   flex-shrink: 0;
   opacity: 0;
   color: white;
-	white-space: nowrap;
   transition: opacity 0.66s;
-  background: none;
-  height: auto;
-  padding: 6px 10px 6px 10px;
-  margin: 0 10px 0 10px;
+  background: transparent;
+  margin: 0 10px 8px 10px;
   display: none;
-  }
+  width: fit-content;
+  padding: 6px 18px 6px;
+}
