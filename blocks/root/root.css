@@ -7,11 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-	background: url(../../images/top_background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../../images/top_background.jpg) no-repeat fixed top center;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,5 +20,6 @@
 @media screen and (max-width: 475px) {
   .root {
     font-size: 12px;
+		background-size: auto;
   }
 }
