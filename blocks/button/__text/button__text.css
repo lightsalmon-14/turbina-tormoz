@@ -6,7 +6,7 @@
   color: white;
   transition: opacity 0.66s;
   background: transparent;
-  margin: 0 40px 8px 10px;
+  margin: 0px 30px 20px 0px;
   display: none;
   width: fit-content;
   padding: 6px 18px 6px;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 475px) {
 	.button__text {
-		width: calc(100% - 50px);
-		margin: auto;
+		width: calc(100% - 45px);
+		margin: 5px auto;
 	}
 }

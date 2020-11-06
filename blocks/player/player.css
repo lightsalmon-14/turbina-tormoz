@@ -1,7 +1,7 @@
 .player {
   margin-top: auto;
   height: auto;
-  padding: 20px 20px 10px 20px;
+  padding: 0px 25px;
   display: flex;
 	position: relative;
   box-sizing: border-box;

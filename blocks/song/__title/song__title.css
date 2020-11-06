@@ -1,7 +1,6 @@
 .song__title {
   white-space: nowrap;
 	overflow: hidden;
-  padding: 0 10px 0 0;
   text-overflow: ellipsis;
 	color: #fff;
 	font-size: 20px;
@@ -14,6 +13,7 @@
 .song__title:hover {
 	font-style: italic;
 	cursor: pointer;
+	background: rgba(255,255,255,0.1);
 }
 
 @media screen and (max-width: 1279px) {

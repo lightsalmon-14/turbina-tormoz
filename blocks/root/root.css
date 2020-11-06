@@ -7,7 +7,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background: url(../../images/top_background.jpg) no-repeat fixed center;
+  background: url(../../images/top_background.jpg) no-repeat fixed top center;
 	background-size: cover;
 }
 
