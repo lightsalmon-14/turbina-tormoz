@@ -1,0 +1,25 @@
+.root {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background: url(../../images/top_background.jpg) no-repeat fixed top center;
+	background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .root {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .root {
+    font-size: 12px;
+		background-size: auto;
+  }
+}
