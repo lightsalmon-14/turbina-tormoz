@@ -10,12 +10,6 @@
 	display: flex;
 }
 
-.song__title:hover {
-	font-style: italic;
-	cursor: pointer;
-	background: rgba(255,255,255,0.1);
-}
-
 @media screen and (max-width: 1279px) {
   .song__title {
     font-size: 18px;
